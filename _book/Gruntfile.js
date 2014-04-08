@@ -13,7 +13,7 @@ module.exports = function (grunt) {
                 input: "./",
                 title: "Test GitBook",
                 description: "Little project to test GitBook project.",
-                github: "Olo-Burrows/testGitbook"
+                github: "JB-VIF/testGitbook"
             }
         },
         'gh-pages': {
@@ -26,11 +26,10 @@ module.exports = function (grunt) {
             files: '.grunt'
         }
     });
-    /*
     grunt.registerTask('publish', [
         'gitbook',
         'gh-pages',
         'clean'
-    ]);*/
+    ]);
     grunt.registerTask('default', 'gitbook');
 };
