@@ -6,4 +6,3 @@ Test GitBook
 Welcome on the first page !
 
 
-aaaa
